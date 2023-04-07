@@ -1,3 +1,3 @@
-import { getCurrentWeather } from "./modules/get-weather-location-info";
+import { getCurrentWeatherFromIp } from "./modules/get-weather-location-info";
 
-getCurrentWeather();
+getCurrentWeatherFromIp();
