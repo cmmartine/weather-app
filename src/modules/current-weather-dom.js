@@ -11,7 +11,7 @@ function currentWeatherDOM(currentWeather) {
 }
 
 function showCurrentLocation(currentLocation) {
-  const locationPara = document.createElement('p');
+  const locationPara = document.createElement('h2');
   locationPara.innerText = `${currentLocation.name}, ${currentLocation.region}`;
   currentContent.append(locationPara);
 }
